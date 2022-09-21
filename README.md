@@ -36,4 +36,6 @@
 
   ## Credits
   Malek Mekdashi
+  
+  link to deployed application: https://tranquil-fortress-30723.herokuapp.com/
 
