@@ -11,11 +11,11 @@ router.get('/api/notes', (req, res) => {
     
 
     fs.readFile(db, (err, data) => {
-        if (err) {console.log(err)
+        if (err) throw err;
         
         parsedData = JSON.parse(data);
               
-    }});
+    });
     return res.json(parsedData); 
 });
     
